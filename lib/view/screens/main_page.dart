@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shorts/screens/home_page.dart';
+import 'package:flutter_shorts/view/screens/home_page.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({Key? key});
