@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shorts/screens/main_page.dart';
+import 'package:flutter_shorts/view/screens/main_page.dart';
 
 void main() {
   runApp(const MyApp());
