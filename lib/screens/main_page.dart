@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shorts/view/screens/home_page.dart';
+import 'package:flutter_shorts/screens/home_page.dart';
+import 'package:lottie/lottie.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({Key? key});
@@ -16,7 +17,7 @@ class MainPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset("assets/logo-a.png"),
+               Lottie.network("https://assets1.lottiefiles.com/packages/lf20_dlst7r34.json"),
                 SizedBox(height: 25),
                 Text(
                   "Flutter_Shorts",
@@ -33,13 +34,10 @@ class MainPage extends StatelessWidget {
             margin: EdgeInsets.only(bottom: 40),
             child: ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => HomePage()),
-                );
+               Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage())); // Use Get.to() to navigate
               },
               style: ElevatedButton.styleFrom(
-               backgroundColor: Colors.white,
+                backgroundColor: Colors.white,
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
