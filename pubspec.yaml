@@ -36,6 +36,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   http: ^0.13.6
+  music_visualizer: ^1.0.2
+  mini_music_visualizer: ^1.0.2
+  get: ^4.6.5
+  chewie: ^1.5.0
+  lottie: ^2.3.2
+  like_button: ^2.0.5
+  video_player: ^2.6.1
 
 dev_dependencies:
   flutter_test:

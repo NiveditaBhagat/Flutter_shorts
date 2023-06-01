@@ -5,13 +5,17 @@ class Post{
   Comment comment;
   Reaction reaction;
   Submission submission;
+  String postId;
+   bool showLikeAnimation;
 
   Post({
     required this.comment,
     required this.creator,
     required this.reaction,
     required this.submission,
-  
+    required this.postId,
+     this.showLikeAnimation = false,
+    
   });
 
   factory Post.fromJson(Map<String, dynamic> json){
@@ -20,6 +24,7 @@ class Post{
       creator: Creator.fromJson(json['creator']), 
       reaction: Reaction.fromJson(json['reaction']), 
       submission: Submission.fromJson(json['submission']),
+      postId: json['postId'],
       );
   }
 

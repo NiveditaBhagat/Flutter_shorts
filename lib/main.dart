@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shorts/view/screens/main_page.dart';
+import 'package:flutter_shorts/screens/main_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -8,14 +9,12 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
      debugShowCheckedModeBanner: false,
       home: MainPage(),
     );
   }
 }
-
