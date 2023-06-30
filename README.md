@@ -4,10 +4,6 @@
 Welcome to your application! This guide will help you install and run the application on your local machine.
 
 
-https://github.com/NiveditaBhagat/Flutter_shorts/assets/123383795/c19b0b43-0881-4496-85d8-5df34d772205
-
-
-
 ## Prerequisites
 
 Before you proceed, make sure you have the following installed on your machine:
